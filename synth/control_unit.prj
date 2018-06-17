@@ -1,0 +1,5 @@
+vhdl work "../src/status_mod.vhd"
+vhdl work "../src/ram_mux.vhd"
+vhdl work "../src/cursor_mod.vhd"
+vhdl work "../src/clear_mod.vhd"
+vhdl work "../src/control_unit.vhd"

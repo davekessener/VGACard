@@ -1,0 +1,15 @@
+set -xsthdpdir "./_cg/_dbg/internal_ram_xsd"
+run
+-ifn "./_cg/_dbg/internal_ram.prj"
+-ifmt VHDL
+-ofmt NGC
+-ofn "./_cg/_dbg/internal_ram.ngc"
+-p xc7vx330t-3ffg1157
+-iobuf NO
+-work_lib work
+-ent internal_ram
+-arch virtex7
+-top internal_ram
+-bus_delimiter <>
+-lso "./_cg/_dbg/_default.lso"
+-use_new_parser yes

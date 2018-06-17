@@ -1,0 +1,49 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/dave/fpga/VGACard/synth/vgacard_tb_isim_beh.exe -prj C:/Users/dave/fpga/VGACard/synth/vgacard_tb_beh.prj work.vgacard_tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/dave/fpga/VGACard/synth/../src/buf_mod.vhd" into library work
+Parsing VHDL file "C:/Users/dave/fpga/VGACard/synth/../src/write_mod.vhd" into library work
+Parsing VHDL file "C:/Users/dave/fpga/VGACard/synth/../src/swap_buf.vhd" into library work
+Parsing VHDL file "C:/Users/dave/fpga/VGACard/synth/../src/read_mod.vhd" into library work
+Parsing VHDL file "C:/Users/dave/fpga/VGACard/synth/../src/ram_mux.vhd" into library work
+Parsing VHDL file "C:/Users/dave/fpga/VGACard/synth/../src/charset_mod.vhd" into library work
+Parsing VHDL file "C:/Users/dave/fpga/VGACard/synth/../src/sync_mod.vhd" into library work
+Parsing VHDL file "C:/Users/dave/fpga/VGACard/synth/../src/status_mod.vhd" into library work
+Parsing VHDL file "C:/Users/dave/fpga/VGACard/synth/../src/screen_ctrl.vhd" into library work
+Parsing VHDL file "C:/Users/dave/fpga/VGACard/synth/../src/cursor_mod.vhd" into library work
+Parsing VHDL file "C:/Users/dave/fpga/VGACard/synth/../src/clear_mod.vhd" into library work
+Parsing VHDL file "C:/Users/dave/fpga/VGACard/synth/../src/vram_unit.vhd" into library work
+Parsing VHDL file "C:/Users/dave/fpga/VGACard/synth/../src/screen_unit.vhd" into library work
+Parsing VHDL file "C:/Users/dave/fpga/VGACard/synth/../src/control_unit.vhd" into library work
+Parsing VHDL file "C:/Users/dave/fpga/VGACard/synth/../src/vgacard_mod.vhd" into library work
+Parsing VHDL file "C:/Users/dave/fpga/VGACard/synth/../sim/vgacard_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity status_mod [status_mod_default]
+Compiling architecture behavioral of entity cursor_mod [cursor_mod_default]
+Compiling architecture behavioral of entity clear_mod [clear_mod_default]
+Compiling architecture behavioral of entity ram_mux [ram_mux_default]
+Compiling architecture behavioral of entity control_unit [control_unit_default]
+Compiling package std_logic_arith
+Compiling architecture behavioral of entity sync_mod [sync_mod_default]
+Compiling architecture behavioral of entity charset_mod [charset_mod_default]
+Compiling architecture behavioral of entity buf_mod [buf_mod_default]
+Compiling architecture behavioral of entity swap_buf [swap_buf_default]
+Compiling architecture behavioral of entity read_mod [read_mod_default]
+Compiling architecture behavioral of entity write_mod [write_mod_default]
+Compiling architecture behavioral of entity screen_ctrl [screen_ctrl_default]
+Compiling architecture behavioral of entity screen_unit [screen_unit_default]
+Compiling architecture behavioral of entity vram_unit [vram_unit_default]
+Compiling architecture behavioral of entity vgacard_mod [vgacard_mod_default]
+Compiling architecture behavioral of entity vgacard_tb
+Time Resolution for simulation is 1ps.
+Waiting for 9 sub-compilation(s) to finish...
+Compiled 35 VHDL Units
+Built simulation executable C:/Users/dave/fpga/VGACard/synth/vgacard_tb_isim_beh.exe
+Fuse Memory Usage: 37888 KB
+Fuse CPU Usage: 919 ms

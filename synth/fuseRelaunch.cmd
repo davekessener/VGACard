@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/dave/fpga/VGACard/synth/vgacard_tb_isim_beh.exe" -prj "C:/Users/dave/fpga/VGACard/synth/vgacard_tb_beh.prj" "work.vgacard_tb" 

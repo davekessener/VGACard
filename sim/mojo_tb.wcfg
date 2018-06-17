@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/dave/fpga/VGACard/synth/mojo_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="mojo_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="25" />
+   <wvobject fp_name="/mojo_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mojo_tb/rst_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mojo_tb/led" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">led[7:0]</obj_property>
+      <obj_property name="ObjectShortName">led[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mojo_tb/vga_g" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">vga_g</obj_property>
+      <obj_property name="ObjectShortName">vga_g</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mojo_tb/vga_hs" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">vga_hs</obj_property>
+      <obj_property name="ObjectShortName">vga_hs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mojo_tb/vga_vs" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">vga_vs</obj_property>
+      <obj_property name="ObjectShortName">vga_vs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mojo_tb/ram_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_addr[14:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_addr[14:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mojo_tb/ram_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_data[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mojo_tb/ram_cs_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_cs_n</obj_property>
+      <obj_property name="ObjectShortName">ram_cs_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mojo_tb/ram_we_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_we_n</obj_property>
+      <obj_property name="ObjectShortName">ram_we_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mojo_tb/ram_oe_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_oe_n</obj_property>
+      <obj_property name="ObjectShortName">ram_oe_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mojo_tb/UUT/SyncUnit/x_ctrl" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x_ctrl[9:0]</obj_property>
+      <obj_property name="ObjectShortName">x_ctrl[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mojo_tb/UUT/SyncUnit/y_ctrl" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">y_ctrl[8:0]</obj_property>
+      <obj_property name="ObjectShortName">y_ctrl[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mojo_tb/UUT/SyncUnit/video_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">video_en</obj_property>
+      <obj_property name="ObjectShortName">video_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mojo_tb/UUT/ScreenInst/cur_char" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cur_char[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cur_char[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mojo_tb/UUT/ScreenInst/start_loading" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">start_loading</obj_property>
+      <obj_property name="ObjectShortName">start_loading</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mojo_tb/UUT/ScreenInst/RAMConnection/addr_ram" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addr_ram[14:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_ram[14:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mojo_tb/UUT/ScreenInst/RAMConnection/read_c" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">read_c</obj_property>
+      <obj_property name="ObjectShortName">read_c</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mojo_tb/UUT/ScreenInst/RAMConnection/line_buf" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">line_buf</obj_property>
+      <obj_property name="ObjectShortName">line_buf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mojo_tb/UUT/ScreenInst/RAMConnection/state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mojo_tb/counter" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">counter</obj_property>
+      <obj_property name="ObjectShortName">counter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mojo_tb/UUT/ScreenInst/LineBuffer/BufferHigh/s_buffer[0]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[0]</obj_property>
+      <obj_property name="ObjectShortName">s_buffer[0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mojo_tb/UUT/ScreenInst/LineBuffer/BufferHigh/s_buffer[79]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[79]</obj_property>
+      <obj_property name="ObjectShortName">s_buffer[79]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mojo_tb/UUT/ScreenInst/LineBuffer/BufferLow/s_buffer[0]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[0]</obj_property>
+      <obj_property name="ObjectShortName">s_buffer[0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mojo_tb/UUT/ScreenInst/LineBuffer/BufferLow/s_buffer[79]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[79]</obj_property>
+      <obj_property name="ObjectShortName">s_buffer[79]</obj_property>
+   </wvobject>
+</wave_config>

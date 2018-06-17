@@ -1,0 +1,2 @@
+vhdl work "../src/ram_unit.vhd"
+vhdl work "../src/ram_mod.vhd"
