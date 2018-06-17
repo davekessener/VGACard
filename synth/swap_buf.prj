@@ -1,2 +1,0 @@
-vhdl work "../src/buf_mod.vhd"
-vhdl work "../src/swap_buf.vhd"

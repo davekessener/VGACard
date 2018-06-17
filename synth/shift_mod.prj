@@ -1,2 +1,0 @@
-vhdl work "../src/shift_reg.vhd"
-vhdl work "../src/shift_mod.vhd"

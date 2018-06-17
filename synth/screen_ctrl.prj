@@ -1,5 +1,0 @@
-vhdl work "../src/buf_mod.vhd"
-vhdl work "../src/swap_buf.vhd"
-vhdl work "../src/com_mod.vhd"
-vhdl work "../src/charset_mod.vhd"
-vhdl work "../src/screen_ctrl.vhd"

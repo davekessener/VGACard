@@ -1,2 +1,0 @@
-vhdl work "../src/cursor_mod.vhd"
-vhdl work "../sim/cursor_tb.vhd"

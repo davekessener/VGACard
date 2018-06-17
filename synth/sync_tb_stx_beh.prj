@@ -1,2 +1,0 @@
-vhdl isim_temp "../src/sync_mod.vhd"
-vhdl isim_temp "../sim/sync_tb.vhd"
